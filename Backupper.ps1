@@ -128,7 +128,7 @@ $IP_TO_LOCATION = @(
 #################################
 $VerbosePreference = "Continue"
 $Usern = "itadmin"
-$PWord = ConvertTo-SecureString -String 'Focus4$$$$' -AsPlainText -Force
+$PWord = ConvertTo-SecureString -String '******' -AsPlainText -Force
 $Credential = New-Object -TypeName System.Management.Automation.PSCredential $Usern, $PWord
 $MACHINE_NAME = hostname
 $MACHINE_NAME -replace " ",""
